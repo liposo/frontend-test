@@ -1,0 +1,26 @@
+[
+  {
+    "id": 67544,
+    "title": "Video Title 7",
+    "video_url": "http://www.mydomain.com/video121321",
+    "thumbnail_url": "https://lorempixel.com/400/200/food/7/",
+    "posttime": "2017-03-21T10:56:11.404Z",
+    "tags": ["green", "red", "blue"]
+  },
+  {
+    "id": 912,
+    "title": "Video Title 9",
+    "video_url": "http://www.mydomain.com/video121321",
+    "thumbnail_url": "https://lorempixel.com/400/200/food/8/",
+    "posttime": "2017-01-01T09:01:10.404Z",
+    "tags": ["orange", "purple"]
+  },
+  {
+    "id": 31,
+    "title": "Video Title 8",
+    "video_url": "http://www.mydomain.com/video121321",
+    "thumbnail_url": "https://lorempixel.com/400/200/food/9/",
+    "posttime": "2017-03-02T07:12:00.404Z",
+    "tags": ["magenta", "red", "yellow"]
+  }
+]

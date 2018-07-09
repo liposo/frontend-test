@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Front End Test</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="title-text">Front End Test</h1>
+    </header>
+    <section id="videos">
+        <div class="container">
+            <div class="filters-bar">
+                <input id="search-input" class="item-search" type="text" placeholder="search...">
+                <div class="item-order order-switch">
+                    <span>Order by</span>
+                    <input type="radio" id="order-newest" name="order" value="order-newest" checked/>
+                    <label id="label-newest" for="order-newest">Newest First</label>
+                    <input type="radio" id="order-oldest" name="order" value="order-oldest" />
+                    <label id="label-oldest" for="order-oldest">Oldest First</label>
+                    <input type="radio" id="order-rating" name="order" value="order-rating" />
+                    <label for="order-rating">Rating</label>
+                </div>
+            </div>
+
+            <div class="videos">
+                <ul id="videos-list" class="cards">
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+    </section>
+    
+    <script type='text/javascript' src='./js/main.js'></script>
+</body>
+
+</html>
