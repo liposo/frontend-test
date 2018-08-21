@@ -12,6 +12,10 @@ function Item(id, title, video_url, thumbnail_url, posttime, rating, tags) {
 
 var videos = [];
 
+window.onload = function() {
+  videos = [];
+};
+
 initalRequest(jsons[0]);
 
 function responseToVideos(response) {
