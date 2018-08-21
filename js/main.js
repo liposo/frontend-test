@@ -39,9 +39,8 @@ function responseToVideos(response) {
 function initalRequest(source) {
   getData(source, function(response) {
     responseToVideos(JSON.parse(response));
+    nextRequest(jsons[1]);
   });
-
-  nextRequest(jsons[1]);
 }
 
 function nextRequest(source) {
